@@ -29,8 +29,8 @@ h1 {
 /* Sección Inicio */
 
 .imgChica {
-    width: 900px;
-    height: 650px;
+    width: 950px;
+    height: 100%;
     display: block;
     margin: auto;
 }
@@ -62,7 +62,8 @@ h1 {
 }
 
 .promocionesMes {
-    margin-left: 150px;
+    margin: 10px 50px;
+
 }
 
 P {
@@ -259,6 +260,10 @@ label {
     color: #ddb967;
 }
 
+fieldset{
+    
+}
+
 .contacto {
     flex-basis: 45%;
     margin: 10px;
@@ -274,19 +279,23 @@ label {
 .contacto #nombre {
     grid-row: 1/2;
     grid-column: 1/2;
+    margin: auto;
 }
 .contacto #apellido {
     grid-row: 1/2;
     grid-column: 2/2;
+    margin: auto;
 }
 
 .contacto #correo {
     grid-row: 2/3;
     grid-column: 1/2;
+    margin: auto;
 }
 .contacto textarea {
     grid-row: 1/4;
     grid-column: 2/3;
+    margin: auto;
 }
 .contacto button {
     grid-row: 3/4;

@@ -1,88 +1,71 @@
 @charset "UTF-8";
 /* Codigos CSS para encabezado */
-
 .fondoLadrillos {
   background-image: url(../Imagenes/fondo.png);
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover; }
 
 .logo {
   width: 150px;
   margin-top: 1%;
   margin-left: 1%;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
 /* Finaliza Codigos CSS para encabezado */
-
 * {
   margin: 0%;
-  padding: 0%;
-}
+  padding: 0%; }
 
 /* Codigos CSS para pagina principal */
-
 .bodyFondo {
-  background-color: #764134;
-}
+  background-color: #764134; }
 
 h1 {
   color: #f4a259;
   font-size: 60px;
   text-align: center;
   font-family: "Ibarra Real Nova", serif;
-  font-weight: 400;
-}
+  font-weight: 400; }
 
 .titulosSecundarios {
   color: #f4a259;
   font-size: 60px;
   text-align: center;
   font-family: "Ibarra Real Nova", serif;
-  font-weight: 400;
-}
+  font-weight: 400; }
 
 /* Codigo CSS */
-
 /* Sección Inicio */
-
 .imgChica {
-  width: 900px;
-  height: 650px;
+  width: 950px;
+  height: 100%;
   display: block;
-  margin: auto;
-}
+  margin: auto; }
 
 .imga {
   display: block;
   margin: auto;
   width: 60%;
-  height: 400px;
-}
+  height: 400px; }
 
 .imagIzq {
   margin-right: 30%;
   width: 300px;
   height: 200px;
-  margin: 1%;
-}
+  margin: 1%; }
 
 .imagDer {
   margin-left: 30%;
   width: 300px;
   height: 200px;
-  margin: 1%;
-}
+  margin: 1%; }
 
 .novedadMes {
   width: 20%;
-  margin: 20px auto;
-}
+  margin: 20px auto; }
 
 .promocionesMes {
-  margin-left: 150px;
-}
+  margin: 10px 50px; }
 
 P {
   color: #f4fec1;
@@ -90,8 +73,7 @@ P {
   margin: 10px;
   font-family: "Open Sans", sans-serif;
   font-style: italic;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
 
 .gradientes {
   background-image: linear-gradient(to left, #4f3d2d, #7b5151, #36383c);
@@ -101,17 +83,13 @@ P {
   height: 100px;
   animation-duration: 2s;
   animation-name: aparecer;
-  animation-iteration-count: infinite;
-}
+  animation-iteration-count: infinite; }
 
 @keyframes aparecer {
   0% {
-    opacity: 0;
-  }
+    opacity: 0; }
   100% {
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 .gridContenedor {
   width: 100%;
@@ -120,189 +98,150 @@ P {
   grid-gap: 15px;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(5, auto);
-  grid-template-areas: "header header" "main main" "novedades novedades" "eventos eventos" "footer footer";
-}
+  grid-template-areas: "header header" "main main" "novedades novedades" "eventos eventos" "footer footer"; }
 
 .gridContenedor .gridHeader {
-  grid-area: header;
-}
+  grid-area: header; }
 
 .gridContenedor .gridMenu {
-  grid-area: main;
-}
+  grid-area: main; }
 
 .gridContenedor .gridFooter {
-  grid-area: footer;
-}
+  grid-area: footer; }
 
 .gridContenedor .gridNovedades {
-  grid-area: novedades;
-}
+  grid-area: novedades; }
 
 .gridContenedor .gridEventos {
-  grid-area: eventos;
-}
+  grid-area: eventos; }
 
 @media only screen and (max-width: 768px) {
   body {
-    background-color: #231a2e;
-  }
+    background-color: #231a2e; }
   .gridContenedor {
-    grid-template-areas: "header header" "main main" "eventos eventos" "novedades novedades" "footer footer";
-  }
-}
+    grid-template-areas: "header header" "main main" "eventos eventos" "novedades novedades" "footer footer"; } }
 
 @media only screen and (max-width: 1024px) {
   .gridContenedor {
-    grid-template-areas: "header header" "main main" "novedades eventos" "footer footer";
-  }
-}
+    grid-template-areas: "header header" "main main" "novedades eventos" "footer footer"; } }
 
 /* Finaliza Sección Inicio */
-
 /* Sección Café Inicio */
-
 .bordeRedondeado {
   border-radius: 400px;
-  margin-top: 1%;
-}
+  margin-top: 1%; }
 
 .imagenChica {
   width: 200px;
-  height: 100px;
-}
+  height: 100px; }
 
 h2 {
-  color: #cfa8e1;
-}
+  color: #cfa8e1; }
 
 .listados {
-  margin: 30px;
-}
+  margin: 30px; }
 
 section ul li {
   color: #85e9af;
   list-style-type: upper-alpha;
-  list-style-position: initial;
-}
+  list-style-position: initial; }
 
 ol li {
   color: #e9ba4c;
-  list-style-type: upper-roman;
-}
+  list-style-type: upper-roman; }
 
 .paises {
-  color: #f6c0d0;
-}
+  color: #f6c0d0; }
 
 h3 {
-  color: #c889e7;
-}
+  color: #c889e7; }
 
 table {
   border: solid;
   border-color: #f6c0d0;
   color: blanchedalmond;
-  margin: 10px 15px;
-}
+  margin: 10px 15px; }
 
 .letra {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .video {
-  margin: 30px;
-}
+  margin: 30px; }
 
 /* Finaliza Sección Café Inicio */
-
 /* Sección Productos */
-
 .imagProd {
   margin: 30px 50px;
-  width: 300px;
-}
+  width: 300px; }
 
 .padre-flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: stretch;
-}
+  align-content: stretch; }
 
 /* Finaliza Seccion Productos */
-
 /* Sección Nosotros */
-
 .flexBox {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: stretch;
-}
+  align-content: stretch; }
 
 .textoFlexbox {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: columns;
-}
+  flex-direction: columns; }
 
 .flexImagen {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-content: stretch;
-}
+  align-content: stretch; }
 
 /* Finaliza sección Nosotros */
-
 /* Sección Contacto */
-
 label {
-  color: #ddb967;
-}
+  color: #ddb967; }
 
 .contacto {
   flex-basis: 45%;
-  margin: 10px;
-}
+  margin: 10px; }
 
 .contacto div {
   display: grid;
   grid-template-rows: 2rem 2rem 2rem;
   grid-template-columns: auto auto auto;
   align-content: center;
-  grid-gap: 0.7rem;
-}
+  grid-gap: 0.7rem; }
 
 .contacto #nombre {
   grid-row: 1/2;
   grid-column: 1/2;
-}
+  margin: auto; }
 
 .contacto #apellido {
   grid-row: 1/2;
   grid-column: 2/2;
-}
+  margin: auto; }
 
 .contacto #correo {
   grid-row: 2/3;
   grid-column: 1/2;
-}
+  margin: auto; }
 
 .contacto textarea {
   grid-row: 1/4;
   grid-column: 2/3;
-}
+  margin: auto; }
 
 .contacto button {
   grid-row: 3/4;
   grid-column: 1/2;
-  justify-self: start;
-}
+  justify-self: start; }
 
 .button {
   padding: 0.4rem;
@@ -311,76 +250,62 @@ label {
   border-radius: 0.2rem;
   cursor: pointer;
   font-weight: 700;
-  font-size: 0.8rem;
-}
+  font-size: 0.8rem; }
 
 .button:hover {
   border-color: white;
   color: white;
-  background-color: black;
-}
+  background-color: black; }
 
-input, textarea {
+input,
+textarea {
   padding: 0.4rem;
-  background-color: #fff0f0;
-}
+  background-color: #fff0f0; }
 
 /* Finaliza sección Contacto */
-
 /* Finaliza Codigos CSS para pagina principal */
-
 /* Codigos CSS compartido entre header, main y footer */
-
 nav {
   font-family: "Ibarra Real Nova", serif;
   background-color: #f1daa3cb;
-  text-align: right;
-}
+  text-align: right; }
 
 nav a {
   text-decoration: none;
   color: #30353a;
   font-weight: 700;
   margin-right: 20px;
-  padding: 0%;
-}
+  padding: 0%; }
 
 nav ul {
   list-style: none;
-  font-size: 0;
-}
+  font-size: 0; }
 
 nav li {
   display: inline-block;
   width: 100px;
   position: relative;
-  font-size: 15px;
-}
+  font-size: 15px; }
 
 nav ul ul {
   position: absolute;
-  display: none;
-}
+  display: none; }
 
 nav ul ul li {
   display: block;
-  margin: 1px 4px;
-}
+  margin: 1px 4px; }
 
 nav ul li:hover ul {
   display: block;
-  background-color: #f1daa3cb;
-}
+  background-color: #f1daa3cb; }
 
 /* Finaliza Codigos CSS compartido entre header, main y footer */
-
 .contenedor {
   max-width: 1000px;
   width: 90%;
   margin: 0 auto;
   margin-top: 30px;
-  background-color: #2a1a1f;
-}
+  background-color: #2a1a1f; }
 
 .tarjeta {
   border-radius: 15px;
@@ -388,136 +313,109 @@ nav ul li:hover ul {
   display: flex;
   align-items: center;
   position: relative;
-  margin-bottom: 50px;
-}
+  margin-bottom: 50px; }
 
 .tarjeta__contenido {
   background-color: #503d26;
   padding: 10px;
-  border-radius: 10%;
-}
+  border-radius: 10%; }
 
 .tarjeta__contenido2 {
   background-color: #915d50cb;
   padding: 10px;
   border-radius: 10%;
   text-align: right;
-  margin-right: 14px;
-}
+  margin-right: 14px; }
 
 .tarjeta__img {
   width: 250px;
   height: 180px;
   margin-right: 15px;
-  border-radius: 3%;
-}
+  border-radius: 3%; }
 
 .tarjeta__titulo {
   font-size: 1.5rem;
   color: #f4a259;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .tarjeta__parrafo {
   line-height: 28px;
-  font-size: 1rem;
-}
+  font-size: 1rem; }
 
 .tarjeta__titulo2 {
   font-size: 1.5rem;
   color: #f4a259;
   margin-bottom: 20px;
-  text-align: right;
-}
+  text-align: right; }
 
 .tarjeta__parrafo2 {
   line-height: 28px;
   color: #f4fec1;
   font-size: 1rem;
-  text-align: right;
-}
+  text-align: right; }
 
 .page_404 {
   padding: 10px 0px;
   background: #000000;
-  font-family: "Ibarra Real Nova", serif;
-}
+  font-family: "Ibarra Real Nova", serif; }
 
 .page_404 img {
-  width: 100%;
-}
+  width: 100%; }
 
 .four_zero_four_bg {
   background-image: url(https://reactiongifs.me/wp-content/uploads/2020/01/Yeah-sure.-Friends.gif);
   height: 450px;
-  background-position: center;
-}
+  background-position: center; }
 
 .four_zero_four_bg h1 {
-  font-size: 80px;
-}
+  font-size: 80px; }
 
 .four_zero_four_bg h3 {
-  font-size: 80px;
-}
+  font-size: 80px; }
 
 .colorError {
   color: #d5a968;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .link_404 {
   color: black !important;
   padding: 10px 20px;
   background: #cea559;
   margin: 20px 0;
-  display: inline-block;
-}
+  display: inline-block; }
 
 .contant_box_404 {
-  margin-top: 5px;
-}
+  margin-top: 5px; }
 
 /* Codigos CSS para pie de pagina */
-
 footer {
   background-color: #141212;
   margin-top: 5%;
-  padding: 1px;
-}
+  padding: 1px; }
 
 /* Seccion Ubicación */
-
 h6 {
   color: #f4a259;
   font-size: 25px;
-  margin: 5px auto;
-}
+  margin: 5px auto; }
 
 .direccion {
   color: #f4a259;
   font-size: 25px;
-  margin: 5px auto;
-}
+  margin: 5px auto; }
 
 .redesSociales {
   width: 30px;
-  margin-right: 200px;
-}
+  margin-right: 200px; }
 
 /* Finaliza Seccion Ubicación */
-
 /* Sección Copyright */
-
 .footerCopyright {
-  background-color: #575252e8;
-}
+  background-color: #575252e8; }
 
 .Copyright {
   text-align: center;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 /* Finaliza Sección Copyright */
-
 /* Finaliza Codigos CSS para pie de pagina */
