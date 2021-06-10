@@ -207,6 +207,9 @@ table {
 label {
   color: #ddb967; }
 
+fieldset {
+  margin: 10px 300px; }
+
 .contacto {
   flex-basis: 45%;
   margin: 10px; }
@@ -221,22 +224,22 @@ label {
 .contacto #nombre {
   grid-row: 1/2;
   grid-column: 1/2;
-  margin: auto; }
+  margin: auto 50px; }
 
 .contacto #apellido {
   grid-row: 1/2;
   grid-column: 2/2;
-  margin: auto; }
+  margin: auto 50px; }
 
 .contacto #correo {
   grid-row: 2/3;
   grid-column: 1/2;
-  margin: auto; }
+  margin: auto 50px; }
 
 .contacto textarea {
   grid-row: 1/4;
   grid-column: 2/3;
-  margin: auto; }
+  margin: auto 200px; }
 
 .contacto button {
   grid-row: 3/4;
@@ -250,7 +253,8 @@ label {
   border-radius: 0.2rem;
   cursor: pointer;
   font-weight: 700;
-  font-size: 0.8rem; }
+  font-size: 0.8rem;
+  margin: 20px 350px; }
 
 .button:hover {
   border-color: white;
