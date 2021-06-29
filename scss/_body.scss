@@ -75,6 +75,32 @@ P {
     flex-wrap: wrap;
 }
 
+.caja {
+    position: relative;
+    display: inline-block;
+    margin: 10px 120px;
+}
+
+.textoUno {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    color: #21291f;
+    background-color: #e8f37fd0;
+    font-size: 35px;
+    font-family: "Ibarra Real Nova", serif;
+}
+
+.textoDos {
+    position: absolute;
+    top: 100px;
+    right: 90px;
+    color: #21291f;
+    background-color: #e8f37fd0;
+    font-size: 35px;
+    font-family: "Ibarra Real Nova", serif;
+}
+
 .gradientes {
     background-image: linear-gradient(to left, rgb(79, 61, 45), #7b5151, #36383c);
     text-align: center;
