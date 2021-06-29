@@ -9,39 +9,56 @@
 .logo {
     width: 150px;
     margin-top: 1%;
-    margin-left: 1%;
+    margin-right: 1%;
     margin-bottom: 5px;
 }
 
-@font-face {
-    font-family: 'icomoon';
-    src:  url('fonts/icomoon.eot?ypwjyf');
-    src:  url('fonts/icomoon.eot?ypwjyf#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ypwjyf') format('truetype'),
-    url('fonts/icomoon.woff?ypwjyf') format('woff'),
-    url('fonts/icomoon.svg?ypwjyf#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
+header ul{
+    display: none;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak-as: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+input:checked  ~ ul{
+    display:block;
 }
 
-.icon-list:before {
-    content: "\e9ba";
+input {
+    display: none;
 }
 
+nav label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+}
+
+header li {
+    display: block;
+    margin: 0;
+    padding: 4px;
+    list-style: none;
+    border-bottom: 1px;
+}
+
+@media screen and (min-width: 800px){
+    .menu-button{
+    display: none;
+    }
+    
+    nav ul{
+    display: block;
+    }
+    
+    nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 .5em;
+    }
+}
 /* Finaliza Codigos CSS para encabezado */
