@@ -6,7 +6,7 @@
 /* Codigos CSS para pagina principal */
 
 .bodyFondo {
-    background-color: #764134;
+    background-color: #5c0606;
 }
 
 h1 {
@@ -46,14 +46,14 @@ h1 {
     margin-right: 30%;
     width: 300px;
     height: 200px;
-    margin: 1%;
+    
 }
 
 .imagDer {
-    margin-left: 30%;
+    margin-left: 0%;
     width: 300px;
     height: 200px;
-    margin: 1%;
+    margin: 10px;
 }
 
 .novedadMes {
@@ -170,6 +170,7 @@ P {
 
 h2 {
     color: rgb(207, 168, 225);
+    font-weight: 100;
 }
 
 .listados {
@@ -193,13 +194,6 @@ ol li {
 
 h3 {
     color: rgb(200, 137, 231);
-}
-
-table {
-    border: solid;
-    border-color: #f6c0d0;
-    color: blanchedalmond;
-    margin: 10px 15px;
 }
 
 .letra {
@@ -331,15 +325,15 @@ textarea {
 /* Codigos CSS compartido entre header, main y footer */
 nav {
     font-family: "Ibarra Real Nova", serif;
-    background-color: #f1daa3cb;
-    text-align: right;
+    background-color: #f2e392;
+    text-align: center;
 }
 
 nav a {
     text-decoration: none;
     color: #30353a;
-    font-weight: 700;
-    margin-right: 20px;
+    font-weight: 750;
+    margin-right: 40px;
     padding: 0%;
 }
 
@@ -350,7 +344,6 @@ nav ul {
 
 nav li {
     display: inline-block;
-    width: 100px;
     position: relative;
     font-size: 15px;
 }
@@ -362,26 +355,26 @@ nav ul ul {
 
 nav ul ul li {
     display: block;
-    margin: 1px 4px;
+    margin: 1px;
 }
 
 nav ul li:hover ul {
     display: block;
-    background-color: #f1daa3cb;
+    background-color: #ebca7ccb;
 }
 
 /* Finaliza Codigos CSS compartido entre header, main y footer */
 
-.contenedor {
-    max-width: 1000px;
-    width: 90%;
+/* .contenedor {
+    max-width: 300px;
+    width: 50%;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: #2a1a1f;
 }
 
 .tarjeta {
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -433,45 +426,4 @@ nav ul li:hover ul {
     color: #f4fec1;
     font-size: 1rem;
     text-align: right;
-}
-
-.page_404 {
-    padding: 10px 0px;
-    background: #000000;
-    font-family: "Ibarra Real Nova", serif;
-}
-
-.page_404 img {
-    width: 100%;
-}
-
-.four_zero_four_bg {
-    background-image: url(https://reactiongifs.me/wp-content/uploads/2020/01/Yeah-sure.-Friends.gif);
-    height: 450px;
-    background-position: center;
-}
-
-.four_zero_four_bg h1 {
-    font-size: 80px;
-}
-
-.four_zero_four_bg h3 {
-    font-size: 80px;
-}
-
-.colorError {
-    color: #d5a968;
-    font-weight: bold;
-}
-
-.link_404 {
-    color: rgb(0, 0, 0) !important;
-    padding: 10px 20px;
-    background: #cea559;
-    margin: 20px 0;
-    display: inline-block;
-}
-.contant_box_404 {
-    margin-top: 5px;
-
-}
+} */

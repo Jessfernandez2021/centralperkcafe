@@ -18,7 +18,7 @@
 
 /* Codigos CSS para pagina principal */
 .bodyFondo {
-  background-color: #764134; }
+  background-color: #5c0606; }
 
 h1 {
   color: #f4a259;
@@ -51,14 +51,13 @@ h1 {
 .imagIzq {
   margin-right: 30%;
   width: 300px;
-  height: 200px;
-  margin: 1%; }
+  height: 200px; }
 
 .imagDer {
-  margin-left: 30%;
+  margin-left: 0%;
   width: 300px;
   height: 200px;
-  margin: 1%; }
+  margin: 10px; }
 
 .novedadMes {
   width: 20%;
@@ -136,7 +135,8 @@ P {
   height: 100px; }
 
 h2 {
-  color: #cfa8e1; }
+  color: #cfa8e1;
+  font-weight: 100; }
 
 .listados {
   margin: 30px; }
@@ -155,12 +155,6 @@ ol li {
 
 h3 {
   color: #c889e7; }
-
-table {
-  border: solid;
-  border-color: #f6c0d0;
-  color: blanchedalmond;
-  margin: 10px 15px; }
 
 .letra {
   font-size: 20px; }
@@ -271,14 +265,14 @@ textarea {
 /* Codigos CSS compartido entre header, main y footer */
 nav {
   font-family: "Ibarra Real Nova", serif;
-  background-color: #f1daa3cb;
-  text-align: right; }
+  background-color: #f2e392;
+  text-align: center; }
 
 nav a {
   text-decoration: none;
   color: #30353a;
-  font-weight: 700;
-  margin-right: 20px;
+  font-weight: 750;
+  margin-right: 40px;
   padding: 0%; }
 
 nav ul {
@@ -287,7 +281,6 @@ nav ul {
 
 nav li {
   display: inline-block;
-  width: 100px;
   position: relative;
   font-size: 15px; }
 
@@ -297,100 +290,75 @@ nav ul ul {
 
 nav ul ul li {
   display: block;
-  margin: 1px 4px; }
+  margin: 1px; }
 
 nav ul li:hover ul {
   display: block;
-  background-color: #f1daa3cb; }
+  background-color: #ebca7ccb; }
 
 /* Finaliza Codigos CSS compartido entre header, main y footer */
-.contenedor {
-  max-width: 1000px;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 30px;
-  background-color: #2a1a1f; }
+/* .contenedor {
+    max-width: 300px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #2a1a1f;
+}
 
 .tarjeta {
-  border-radius: 15px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  position: relative;
-  margin-bottom: 50px; }
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
 
 .tarjeta__contenido {
-  background-color: #503d26;
-  padding: 10px;
-  border-radius: 10%; }
+    background-color: #503d26;
+    padding: 10px;
+    border-radius: 10%;
+}
 
 .tarjeta__contenido2 {
-  background-color: #915d50cb;
-  padding: 10px;
-  border-radius: 10%;
-  text-align: right;
-  margin-right: 14px; }
+    background-color: #915d50cb;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: right;
+    margin-right: 14px;
+}
 
 .tarjeta__img {
-  width: 250px;
-  height: 180px;
-  margin-right: 15px;
-  border-radius: 3%; }
+    width: 250px;
+    height: 180px;
+    margin-right: 15px;
+    border-radius: 3%;
+}
 
 .tarjeta__titulo {
-  font-size: 1.5rem;
-  color: #f4a259;
-  margin-bottom: 20px; }
+    font-size: 1.5rem;
+    color: #f4a259;
+    margin-bottom: 20px;
+}
 
 .tarjeta__parrafo {
-  line-height: 28px;
-  font-size: 1rem; }
+    line-height: 28px;
+    font-size: 1rem;
+}
 
 .tarjeta__titulo2 {
-  font-size: 1.5rem;
-  color: #f4a259;
-  margin-bottom: 20px;
-  text-align: right; }
+    font-size: 1.5rem;
+    color: #f4a259;
+    margin-bottom: 20px;
+    text-align: right;
+}
 
 .tarjeta__parrafo2 {
-  line-height: 28px;
-  color: #f4fec1;
-  font-size: 1rem;
-  text-align: right; }
-
-.page_404 {
-  padding: 10px 0px;
-  background: #000000;
-  font-family: "Ibarra Real Nova", serif; }
-
-.page_404 img {
-  width: 100%; }
-
-.four_zero_four_bg {
-  background-image: url(https://reactiongifs.me/wp-content/uploads/2020/01/Yeah-sure.-Friends.gif);
-  height: 450px;
-  background-position: center; }
-
-.four_zero_four_bg h1 {
-  font-size: 80px; }
-
-.four_zero_four_bg h3 {
-  font-size: 80px; }
-
-.colorError {
-  color: #d5a968;
-  font-weight: bold; }
-
-.link_404 {
-  color: black !important;
-  padding: 10px 20px;
-  background: #cea559;
-  margin: 20px 0;
-  display: inline-block; }
-
-.contant_box_404 {
-  margin-top: 5px; }
-
+    line-height: 28px;
+    color: #f4fec1;
+    font-size: 1rem;
+    text-align: right;
+} */
 /* Codigos CSS para pie de pagina */
 footer {
   background-color: #141212;
