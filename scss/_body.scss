@@ -66,20 +66,6 @@ h1 {
 
 }
 
-.containerEventos {
-    width: 100%;
-
-}
-
-.containerEventos .eventosColumna {
-    width: (95%/4);
-    max-width: 23%;
-    margin: 10px;
-    display: inline-flex;
-    flex-wrap: wrap;
-    
-}
-
 
 P {
     color: #f4fec1;
@@ -203,9 +189,7 @@ P {
         margin: 5px;
     }
 
-    .eventosColumna {
-        max-width: 400px;
-    }
+
 }
 
 @media only screen and (max-width: 1280px) {

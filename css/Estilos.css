@@ -105,16 +105,6 @@ h1 {
 .promocionesMes {
   margin: 10px 50px; }
 
-.containerEventos {
-  width: 100%; }
-
-.containerEventos .eventosColumna {
-  width: 23.75%;
-  max-width: 23%;
-  margin: 10px;
-  display: inline-flex;
-  flex-wrap: wrap; }
-
 P {
   color: #f4fec1;
   text-align: justify;
@@ -201,9 +191,7 @@ P {
     width: 95%;
     text-align: center;
     font-size: 15px;
-    margin: 5px; }
-  .eventosColumna {
-    max-width: 400px; } }
+    margin: 5px; } }
 
 @media only screen and (max-width: 1280px) {
   .gridContenedor {
