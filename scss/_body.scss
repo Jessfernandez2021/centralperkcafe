@@ -133,7 +133,7 @@ P {
         "main main"
         "novedades novedades"
         "eventos eventos"
-        "footer footer";
+        "temas temas";
 }
 
 .gridContenedor .gridHeader {
@@ -144,8 +144,8 @@ P {
     grid-area: main;
 }
 
-.gridContenedor .gridFooter {
-    grid-area: footer;
+.gridContenedor .gridTemas {
+    grid-area: temas;
 }
 
 .gridContenedor .gridNovedades {
@@ -156,27 +156,43 @@ P {
     grid-area: eventos;
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-        background-color: #231a2e;
-    }
+@media only screen and (max-width: 747px) {
+
     .gridContenedor {
         grid-template-areas:
             "header header"
             "main main"
             "eventos eventos"
             "novedades novedades"
-            "footer footer";
+            "temas temas";
+    }
+
+    .gridTemas {
+        width: 80%;
+        margin-left: 1%;
+    }
+
+    .gridEventos {
+        margin-left: 10px;
+    }
+
+    .grid img {
+        width: 100%;
+        margin: 10px;
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1280px) {
     .gridContenedor {
         grid-template-areas:
             "header header"
             "main main"
             "novedades eventos"
-            "footer footer";
+            "temas temas";
+    }
+    .grid img {
+        width: 80%;
+        margin: 10px;
     }
 }
 
@@ -226,181 +242,16 @@ h3 {
     font-size: 20px;
 }
 
-.video {
-    margin: 30px;
-}
-
-/* Finaliza Sección Café Inicio */
-
-/* Sección Productos */
-.imagProd {
-    margin: 30px 50px;
-    width: 300px;
-}
-
-.padre-flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: stretch;
-}
-
-/* Finaliza Seccion Productos */
-
-/* Sección Nosotros */
-
-.flexBox {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: stretch;
-}
-
-.textoFlexbox {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: columns;
-}
-
-.flexImagen {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: stretch;
-}
-
-/* Finaliza sección Nosotros */
-
-/* Sección Contacto */
-
-label {
-    color: #ddb967;
-}
-
-fieldset {
-    margin: 10px 300px;    
-}
-
-.contacto {
-    flex-basis: 45%;
-    margin: 10px;
-}
-
-.contacto div {
-    display: grid;
-    grid-template-rows: 2rem 2rem 2rem;
-    grid-template-columns: auto auto auto;
-    align-content: center;
-    grid-gap: 0.7rem;
-}
-.contacto #nombre {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    margin: auto 50px;
-}
-.contacto #apellido {
-    grid-row: 1/2;
-    grid-column: 2/2;
-    margin: auto 50px;
-}
-
-.contacto #correo {
-    grid-row: 2/3;
-    grid-column: 1/2;
-    margin: auto 50px;
-}
-.contacto textarea {
-    grid-row: 1/4;
-    grid-column: 2/3;
-    margin: auto 200px;
-}
-.contacto button {
-    grid-row: 3/4;
-    grid-column: 1/2;
-    justify-self: start;
-}
-.button {
-    padding: 0.4rem;
-    border-color: #5f4659;
-    background-color: #c9a75ed5;
-    border-radius: 0.2rem;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 0.8rem;
-    margin: 20px 350px;
-}
-.button:hover {
-    border-color: white;
-    color: white;
-    background-color: black;
-}
-
-input,
-textarea {
-    padding: 0.4rem;
-    background-color: rgb(255, 240, 240);
-}
-
-/* Finaliza sección Contacto */
-
-/* Finaliza Codigos CSS para pagina principal */
-
-/* Codigos CSS compartido entre header, main y footer */
-nav {
-    font-family: "Ibarra Real Nova", serif;
-    background-color: #f2e392;
-    text-align: center;
-}
-
-nav a {
-    text-decoration: none;
-    color: #30353a;
-    font-weight: 750;
-    margin-right: 40px;
-    padding: 0%;
-}
-
-nav ul {
-    list-style: none;
-    font-size: 0;
-}
-
-nav li {
-    display: inline-block;
-    position: relative;
-    font-size: 15px;
-}
-
-nav ul ul {
-    position: absolute;
-    display: none;
-}
-
-nav ul ul li {
-    display: block;
-    margin: 1px;
-}
-
-nav ul li:hover ul {
-    display: block;
-    background-color: #ebca7ccb;
-}
-
-/* Finaliza Codigos CSS compartido entre header, main y footer */
-
-/* .contenedor {
-    max-width: 300px;
-    width: 50%;
+.contenedor {
+    max-width: 1000px;
+    width: 90%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: #2a1a1f;
 }
 
 .tarjeta {
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -452,4 +303,108 @@ nav ul li:hover ul {
     color: #f4fec1;
     font-size: 1rem;
     text-align: right;
-} */
+}
+
+
+/* Finaliza Sección Café Inicio */
+
+/* Sección Productos */
+.imagProd {
+    margin: 30px 50px;
+    width: 300px;
+}
+
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+/* Finaliza Seccion Productos */
+
+/* Sección Nosotros */
+
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+.textoFlexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: columns;
+}
+
+.flexImagen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+/* Finaliza sección Nosotros */
+
+/* Sección Contacto */
+.header {
+    color: #f4a259;
+    font-size: 27px;
+    padding: 10px;
+    margin: auto;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #b35555;
+}
+
+
+/* Finaliza Codigos CSS para pagina principal */
+
+/* Codigos CSS compartido entre header, main y footer */
+header nav {
+    font-family: "Ibarra Real Nova", serif;
+    background-color: #f2e392;
+    text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #30353a;
+    font-weight: 750;
+    margin-right: 40px;
+    padding: 0%;
+}
+
+header nav ul {
+    list-style: none;
+    font-size: 0;
+}
+
+header nav li {
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+}
+
+header nav ul ul {
+    position: absolute;
+    display: none;
+}
+
+header nav ul ul li {
+    display: block;
+    margin: 1px;
+}
+
+header nav ul li:hover ul {
+    display: block;
+    background-color: #ebca7ccb;
+}
+
+/* Finaliza Codigos CSS compartido entre header, main y footer */

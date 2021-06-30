@@ -109,94 +109,90 @@
                 PROXIMAMENTE...</p>
         </section>
     </div>
+    <div class="gridTemas">
     <div class="caja">
         <a href="Secciones/Café.html"><img src="imagenes/cafecitos.jpg" alt="">
-        <div class="textoUno">Nuestros Cafés</div></a>
+            <div class="textoUno">Nuestros Cafés</div>
+        </a>
     </div>
     <div class="caja">
         <a href="Secciones/Productos.html"><img src="imagenes/cafecitos 2.jpg" alt="">
-        <div class="textoDos">Ahora en tu casa</div></a>
-
+            <div class="textoDos">Ahora en tu casa</div>
+        </a>
     </div>
+</div>
 
 
-    <footer class="gridFooter">
+    <footer>
         <!-- Pie de pagina -->
-        <!-- Ubicación -->
-        <section>
-            <h6 class="direccion"> <strong>Dirección</strong>
-                <address>Grove ST. 123</address>
-            </h6>
-            <div>
-                <h6 class="direccion"><strong>Localización</strong></h6>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.319566373115!2d-74.00595938522639!3d40.73299324426898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259937c1d08a3%3A0x8a6db828898de014!2sGrove%20St%2C%20New%20York%2C%20NY%2010014%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1618635162786!5m2!1ses-419!2sar"
-                    width="200" height="150" style="border:5;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section>
-        <!-- Finaliza Ubicación -->
-        <!-- Candidatos -->
-        <section>
-            <h6 class="direccion"> ¿Queres ser parte del equipo? Sumate</h6>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Mandanos tu
-                CV</button>
-            <!-- The Modal -->
-            <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Adjunta tu CV</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body">Subi tu CV y te contactamos!!
-                            <form>
-                                <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="customFile">
-                                    <label class="custom-file-label" for="customFile">Buscar</label>
+        <div class="footer-container">
+            <div class="footerMenu">
+                <div class="footer-columna">
+                    <h3>Menu</h3>
+                    <nav>
+                        <ul>
+                            <li class="menuFooter"><a href="index.html">Home</a></li>
+                            <li class="menuFooter"><a href="Secciones/Café.html">Café</a></li>
+                            <li class="menuFooter"><a href="Secciones/Productos.html">Productos</a></li>
+                            <li class="menuFooter"><a href="Secciones/Nosotros.html">Nosotros</a></li>
+                            <li class="menuFooter"><a href="Secciones/Contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-columna">
+                    <h3>Dirección</h3>
+                    <p>Grove ST. 123 - EEUU</p>
+                    <p>(+1)855-922-7769</p>
+                    <p>info@centralperk.com</p>
+                </div>
+                <div class="footer-columna">
+                    <h3>Trabaja con nosotros</h3>
+                    <h6 class="direccion"> ¿Queres ser parte del equipo? Sumate</h6>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Mandanos tu
+                        CV</button>
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Adjunta tu CV</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 </div>
-
-                                <button type="submit" class="button">ENVIAR</button>
-                            </form>
-
-                            <script>
-                                // Add the following code if you want the name of the file appear on select
-                                $(".custom-file-input").on("change", function () {
-                                    var fileName = $(this).val().split("\\").pop();
-                                    $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
-                                });
-                            </script>
+                                <!-- Modal body -->
+                                <div class="modal-body">Subi tu CV y te contactamos!!
+                                    <form>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="customFile">
+                                            <label class="custom-file-label" for="customFile">Buscar</label>
+                                        </div>
+                                        <button type="submit" class="button">ENVIAR</button>
+                                    </form>
+                                </div>
+                                <!-- Modal footer -->
+                            </div>
                         </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Finaliza candidatos -->
+        </div>
         <!-- Redes sociales -->
-        <section>
-            <nav>
-                <a href="https://www.facebook.com/"><img src="Imagenes/facebook.png" class="redesSociales"
-                        alt="facebook"></a>
-                <a href="https://www.instagram.com/"><img src="Imagenes/instagram.png" class="redesSociales"
-                        alt="instagram"></a>
-                <a href="https://www.twitter.com/"><img src="Imagenes/twitter.png" class="redesSociales"
-                        alt="Twitter"></a>
-            </nav>
+        <section class="footerCopy">
+            <div class="mainCopyRedes">
+                <div class="footerCopyright" >
+                Copyright 2021 - Todos los derechos reservados - 
+                </div>
+            
+            <div class="footerRedes">
+                <a href="https://www.facebook.com/"><img src="Imagenes/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/"><img src="Imagenes/instagram.png" alt="instagram"></a>
+                <a href="https://www.twitter.com/"><img src="Imagenes/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
         </section>
         <!-- finaliza Redes sociales -->
         <!-- Copyright -->
-        <div class="footerCopyright Copyright">
-            <h6>Copyright 2021</h6>
-        </div>
+
         <!-- finaliza Copyright -->
         <!-- finaliza el Pie de pagina -->
     </footer>

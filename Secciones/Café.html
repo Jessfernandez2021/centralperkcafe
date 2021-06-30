@@ -26,6 +26,8 @@
                 title="Central Perk Logo" /></a>
         <!-- Listado Menú-->
         <nav>
+            <input type="checkbox" id="menu">
+            <label for="menu" class="menu-button">☰</label>
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="Café.html">Café </a></li>
@@ -53,20 +55,24 @@
                 formas de consumo.
             </p>
         </section>
-        <section>
+        <section class="cafeContenedor">
             <section class="contenedor">
                 <div class="tarjeta">
                     <img src="../Imagenes/café 7.jpg" class="bordeRedondeado" alt="Expreso" / </div>
+                    <div class="tarjeta__contenido">
+                    <h2>Café Expreso</h2>
+                    <p class="tarjeta__parrafo">
+                        El café expreso es una forma de preparación de café originada en
+                        Italia.​ Debe su término a la obtención de esta bebida a través de una
+                        cafetera expreso.​ Se caracteriza por su rápida preparación y por un
+                        sabor y textura más concentrados.
+                    </p>
+                </div>
                 </div>
                 <div class="tarjeta__contenido">
-                        <h2>Café Expreso</h2>
-                        <p class="tarjeta__parrafo">
-                            El café expreso es una forma de preparación de café originada en
-                            Italia.​ Debe su término a la obtención de esta bebida a través de una
-                            cafetera expreso.​ Se caracteriza por su rápida preparación y por un
-                            sabor y textura más concentrados.
-                        </p>
-                </div>
+                        
+                        
+                
             </section>
             <section class="contenedor">
                 <div class="tarjeta">
@@ -160,110 +166,79 @@
                 </div>
             </section>
         </section>
-
-        <section>
-            <h2 id="internacionales">Internacionales</h2>
-            <ul class="listados">
-                <li class="paises">
-                    EEUU
-                    <ol>
-                        <li>
-                            Café Breve
-                            <p>
-                                Es una variación estadounidense de un café con leche : una
-                                bebida de espresso a base de leche que utiliza una mezcla de
-                                leche y crema al vapor mitad y mitad en lugar de leche.
-                            </p>
-                        </li>
-                        <li>
-                            El Gibraltar
-                            <p>
-                                Es una bebida a base de espresso con leche al vapor muy
-                                similar a un capuchino. La gran diferencia es que se sirve en
-                                un vaso de roca Libbey Gibraltar.
-                            </p>
-                        </li>
-                        <li>
-                            Red Eye
-                            <p>
-                                Se trata de una mezcla de café de filtro, agua, azúcar y leche
-                                hirviendo a la que se le puede añadir achicoria y especies y
-                                que tiene su mayor atractivo en la preparación del propio café
-                                en un original juego de cilindros a través de los cuales se
-                                consigue la precipitación del café.
-                            </p>
-                        </li>
-                    </ol>
-                </li>
-                <br />
-                <li class="paises">
-                    Italiano
-                    <ol>
-                        <li>Macchiato
-                            <p>Es un café cortado típico de Italia, consiste en un expreso con una pequeña cantidad de
-                                leche caliente y espumada.</p>
-                        </li>
-                        <li>Ristretto
-                            <p>Es un "trago corto" de un café expreso más concentrado.</p>
-                        </li>
-                        <li>Cappuccino
-                            <p>Es una bebida nacida en Italia, preparada con café espresso y leche montada con vapor
-                                para darle cremosidad.</p>
-                        </li>
-                    </ol>
-                </li>
-                <br />
-                <li class="paises">
-                    España
-                    <ol>
-                        <li>Café Bombón
-                            <p>Es una mezcla de café endulzado con leche condensada y agua.</p>
-                        </li>
-                        <li>Café miel
-                            <p>Fue creado en España, preparado con café espresso, leche, miel y canela.</p>
-                        </li>
-                    </ol>
-                </li>
-                <br />
-            </ul>
-        </section>
-
-        <section>
-            <h2 id="especialidades">Especialidades</h2>
-            <ol class="listados">
-                <li>El madrugador</li>
-                <li>Café Otoñal</li>
-                <li>Frappe de chocolate amargo</li>
-            </ol>
-        </section>
-        <!-- finaliza el cuerpo de la pagina -->
+<!-- finaliza el cuerpo de la pagina -->
     </main>
 
     <footer>
-        <!-- inicio del pie de pagina -->
-        <hr />
-        <h6>
-            <strong>Dirección</strong>
-            <address>Grove ST. 123</address>
-        </h6>
-        <h6><strong>Localización</strong></h6>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.319566373115!2d-74.00595938522639!3d40.73299324426898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259937c1d08a3%3A0x8a6db828898de014!2sGrove%20St%2C%20New%20York%2C%20NY%2010014%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1618635162786!5m2!1ses-419!2sar"
-            width="300" height="250" style="border: 5" allowfullscreen="" loading="lazy"></iframe>
-        <section>
-            <nav>
-                <a href="https://www.facebook.com/"><img src="../Imagenes/facebook.png" class="redesSociales"
-                        alt="facebook" /></a>
-                <a href="https://www.instagram.com/"><img src="../Imagenes/instagram.png" class="redesSociales"
-                        alt="instagram" /></a>
-                <a href="https://www.twitter.com/"><img src="../Imagenes/twitter.png" class="redesSociales"
-                        alt="Twitter" /></a>
-            </nav>
-        </section>
-        <div class="footerCopyright Copyright">
-            <h6>Copyright 2021</h6>
+        <!-- Pie de pagina -->
+        <div class="footer-container">
+            <div class="footerMenu">
+                <div class="footer-columna">
+                    <h3>Menu</h3>
+                    <nav>
+                        <ul>
+                            <li class="menuFooter"><a href="../index.html">Home</a></li>
+                            <li class="menuFooter"><a href="Café.html">Café</a></li>
+                            <li class="menuFooter"><a href="Productos.html">Productos</a></li>
+                            <li class="menuFooter"><a href="Nosotros.html">Nosotros</a></li>
+                            <li class="menuFooter"><a href="Contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-columna">
+                    <h3>Dirección</h3>
+                    <p>Grove ST. 123 - EEUU</p>
+                    <p>(+1)855-922-7769</p>
+                    <p>info@centralperk.com</p>
+                </div>
+                <div class="footer-columna">
+                    <h3>Trabaja con nosotros</h3>
+                    <h6 class="direccion"> ¿Queres ser parte del equipo? Sumate</h6>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Mandanos tu
+                        CV</button>
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Adjunta tu CV</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">Subi tu CV y te contactamos!!
+                                    <form>
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="customFile">
+                                            <label class="custom-file-label" for="customFile">Buscar</label>
+                                        </div>
+                                        <button type="submit" class="button">ENVIAR</button>
+                                    </form>
+                                </div>
+                                <!-- Modal footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Finaliza el pie de pagina -->
+        <!-- Redes sociales -->
+        <section class="footerCopy">
+            <div class="mainCopyRedes">
+                <div class="footerCopyright" >
+                Copyright 2021 - Todos los derechos reservados - 
+                </div>
+            
+            <div class="footerRedes">
+                <a href="https://www.facebook.com/"><img src="../Imagenes/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/"><img src="../Imagenes/instagram.png" alt="instagram"></a>
+                <a href="https://www.twitter.com/"><img src="../Imagenes/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+        </section>
+        <!-- finaliza Redes sociales -->
+
+        <!-- finaliza el Pie de pagina -->
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
